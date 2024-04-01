@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* line-height: 30px; */
+}
+body {
+    margin: 20px;
+    font-family:'Times New Roman', Times, serif;
+    border: 40px solid rgb(77, 74, 74);
+    border-radius: 4px;
+}
+.portfoliocontent {
+    margin: 30px;
+}
+h1, h2, h3 {
+    color: green;
+}
+.menubar ul {
+    display: flex;
+    flex-direction: row ; 
+    justify-content: center; 
+    gap: 50px;
+}
+.sheet {
+    font-size:20px ;
+    padding-left: 20px;
+    padding-right:20px;
+    border-radius: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:  rgb(48, 48, 48);
+    color: aliceblue;
+    text-decoration: dashed;
+}
+a {
+ text-decoration: none;
+color: black;
+ 
+}
+
+.Side-Bar {
+    padding: 20px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border: 1px solid rgba(77, 77, 77, 0.603);
+    background-color: #8080802e;
+}
